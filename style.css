@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body{
+    width: 100%;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 450px;
+    background: rgba(245, 171, 26, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar li a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover,
+.navbar li a:active{
+    color: #FF9F00;
+}
+
+.hero_box{
+    background: #363636;
+    width: 50%;
+    height: 600px;
+    border-radius: 0 20px 20px 0;
+}
+
+.white{
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 100px;
+}
+.orange{
+    color: #FF9F00;
+    font-size: 100px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 70px;
+}
+
+.button{
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+    background: #FF9F00;
+    border-radius: 7px;
+    margin-left: 400px;
+    margin-top: 40px;
+    font-weight: bolder;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 2px solid #ff9f00;
+    background: #ffffff;
+    color: #FF9F00;
+    cursor: pointer;
+}
+
+.feheading{
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature .febox{
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.feature .febox h6{
+    color: green;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    text-decoration: underline;
+}
+
+.feature .febox img{
+    width: 180px;
+    height: 180px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./Images/banner.jpeg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+.banner h2{
+    color: #fff;
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.expbutton{
+    padding: 8px;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.expbutton:hover{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    text-align: center;
+}
